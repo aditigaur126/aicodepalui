@@ -3,15 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://aditigaur126.github.io/aicodepal",
+  "homepage": "https://aditigaur126.github.io/aicodepalui",
 
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "vite build && gh-pages -d dist"
+},
+
   "dependencies": {
     "axios": "^1.8.4",
     "prismjs": "^1.30.0",
